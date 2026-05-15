@@ -8,3 +8,6 @@ I. Basic Linux Commands
 II. Packages in Linux:
 - [Install flatpak in Kubuntu](packages/flatpak.md)
 
+III. General Theory
+- [Markdown Basic](notes/markdown_aula.md)
+
