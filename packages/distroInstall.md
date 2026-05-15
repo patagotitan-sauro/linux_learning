@@ -6,9 +6,9 @@
 3. Manual Particion  
 
 |nro | espaço | tipo | mount | Flags|  
-|:-- |:-------:|:------:|:-------:|:------:|  
+|:-- |:-------:|:------:|:-------|:------:|  
 |1 |512 MB |FAT32 | /boot/efi | boot, esp  |  
-|2 | 1 GB | ext4 |boot | -  | 
+|2 | 1 GB | ext4 |/boot | -  | 
 |3| 16 GB | linuxswap | - | -|
 |4| > 80 GB | ext4 | / | - |
 |5| resto  | ext4 | /home | - |
@@ -40,6 +40,7 @@ sudo ufw enable
 4. Neofetch
 ```bash
 # ver o código de instalação do neofetch
+sudo apt install neofetch
 ```
 
 5. **Instalação do Flatpak**  
@@ -59,10 +60,19 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 - Restart your computer to allow Discover to detect the changes
 
 6. Micro Text Editor
+```bash
+# Installing Micro (apt)?
+```
 
 7. GIMP
+```bash
+# Installing GIMP (apt)?
+```
 
 8. Video Studio Code
+```bash
+# Installing VS Code (flatpak)?
+```
 
 9. Virtual Machine - KVM e QEMU  
     - KVM: Kernel-based Virtual Machine - hipervisor, ou seja, permite transformar o Linux em sistema de virtualização. Usa recursos do processador (Intel VT-x / AMD-V)
@@ -88,16 +98,37 @@ flatpak install flathub org.vinegarhq.Sober -y
 ```  
 
 11. Steam
+```bash
+# Installing Steam (Flatpak ou Apt)?
+```
 
 12. Bitwarden
+```bash
+# Installing Bitwarde (Flatpak ou Apt)?
+```
 
-13. WinBoat
+13. WinBoat  
+- Instalar Linux Toys para depois instalar WinBoat
+- LinuxToys is available in several official and community repositories for easier package management.
+- Ubuntu (PPA)
+- You can install LinuxToys from our official PPA on [Launchpad:](https://launchpad.net/~psygreg/+archive/ubuntu/linuxtoys)
 ```bash
 # Instação do Linux Toys do psygreg.
-```  
+sudo add-apt-repository ppa:psygreg/linuxtoys
+sudo apt update
+sudo apt install linuxtoys
+```   
+> Fonte: [Linux Toys on Github](https://github.com/psygreg/linuxtoys)  
+
 14. Utilitários interessantes
 - htop
+```bash
+sudo apt install htop
+``` 
 - amdgpu_top
+```bash
+# ver o pacote a instalar o amdgpu_top
+``` 
 ---
 
 ## Tweeks Kubuntu

@@ -14,7 +14,7 @@ I. Basic Linux Commands
 II. Packages in Linux:
 ***
 - [Brave Browser](packages/flatpak.md)
-- [Instalação nova - Kubuntu](packages/newDistroInstall.md)
+- [Instalação nova - Kubuntu](packages/distroInstall.md)
 
 ***
 III. General Theory
