@@ -39,8 +39,8 @@ sudo ufw enable
 
 4. Neofetch
 ```bash
-# ver o código de instalação do neofetch
-sudo apt install neofetch
+# ver o código de instalação do fastfetch
+sudo apt install fastfetch
 ```
 
 5. **Instalação do Flatpak**  
@@ -131,7 +131,10 @@ sudo apt install htop
 ``` 
 ---
 
-## Tweeks Kubuntu
+## Tweeks Kubuntu - KDE Plasma 
+
+1. 
+
 
 ---
 > [Back to main](../main.md)
