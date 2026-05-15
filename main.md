@@ -13,11 +13,13 @@ I. Basic Linux Commands
 ---
 II. Packages in Linux:
 ***
-- [Install flatpak in Kubuntu](packages/flatpak.md)
 - [Brave Browser](packages/flatpak.md)
+- [Instalação nova - Kubuntu](packages/newDistroInstall.md)
+
 ***
 III. General Theory
 ***
 - [Markdown Basic](notes/markdown_aula.md)
 ***
+
 
