@@ -25,6 +25,7 @@ rm -rf ~/.cache/BraveSoftware
 rm -rf ~/.local/share/keyrings/brave-browser*
 ```
 ***
+[Back to Main](../main.md)
 >Fonte: 
 > 1. [ExplainingComputer|Zorin OS 18: Linux for Windows 10 Users](https://www.youtube.com/watch?v=nplI2lvKu94&t=800s)  
 > 2. All of the above terminal commands are believed to be accurate, but are entered into your system at your own risk. :)f  
