@@ -120,7 +120,15 @@ sudo apt install linuxtoys
 ```   
 > Fonte: [Linux Toys on Github](https://github.com/psygreg/linuxtoys)  
 
-14. Utilitários interessantes
+14. digiKam 
+```bash
+# Instação do Digikam do Flatpak.
+#flatpak install digikam?
+```
+
+15. ZapZap
+    
+17. Utilitários interessantes
 - htop
 ```bash
 sudo apt install htop
