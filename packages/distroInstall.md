@@ -69,40 +69,39 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 - Restart your computer to allow Discover to detect the changes
 
 5. Micro Text Editor
+Instalação do Micro via apt
 ```bash
-# Installing Micro via apt
 sudo apt install micro
 ```
 
 4. Neofetch
+Instalação do fastfetch via apt
 ```bash
-# ver o código de instalação do fastfetch
 sudo apt install fastfetch
 ```
-
+Incuir o fastfetch no arquivo .bashrc para apresentar os dados dos sistema no terminal de forma automática.
 ```bash
-#incuir o fastfetch no arquivo .bashrc 
 sudo micro .bashrc
 # incluir no fim do arquivo para executar o fastfetch to vez que entrar no terminal
 fastfetch
 ```
 7. GIMP
+Instalação do GIMP via apt.
 ```bash
-# Installing GIMP apt
 sudo apt gimp
 ```
 
 8. Video Studio Code
+Instalação do VS Code via flatpak.
 ```bash
-# Installing VS Code - flatpak
 flatpak install com.visualstudio.code
 ```
 
 9. Virtual Machine - KVM e QEMU  
     - KVM: Kernel-based Virtual Machine - hipervisor, ou seja, permite transformar o Linux em sistema de virtualização. Usa recursos do processador (Intel VT-x / AMD-V)
     - QEMU: Quick Emulator - emulador/gerenciador de máquinas virtuais. Cria e roda as VMs, emula hardware (disco, rede, CPU, etc), interface para controlar as VMs.
+Instalação do KVM and do Virtual Machine Manager via apt. No Kubuntu o Calamaris tem opção de instalação no momento da instalação do Sistema Operacional.
 ```bash
-# Installing KVM and Virtual Machine Manager
 sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
 ```
 ```bash
@@ -116,8 +115,8 @@ sudo usermod -aG kvm $USER
 ```  
 
 10. Sober  
+Instalação do Sober via Flatpak. Para jogar Robox.
 ```bash
-# Installing Sober (Flatpak app)
 flatpak install flathub org.vinegarhq.Sober -y
 ```  
 
@@ -145,28 +144,34 @@ sudo apt install linuxtoys
 > Fonte: [Linux Toys on Github](https://github.com/psygreg/linuxtoys)  
 
 14. digiKam 
+Instação do Digikam via Flatpak.
 ```bash
-# Instação do Digikam do Flatpak.
-#flatpak install digikam?
+flatpak install org.kde.digikam
 ```
 
 15. ZapZap
-    
+Instalação do ZapZap um clinte para o Linux do Whatsapp.
+```bash
+flatpak install com.rtosta.zapzap
+```
+
+
 17. Utilitários interessantes
 - htop
 ```bash
 sudo apt install htop
 ``` 
-- amdgpu_top
+- nv_top
+Instalar o nv_top via apt.
+NVTOP is a powerful GPU monitoring tool designed for Linux systems, including Ubuntu. It provides real-time statistics on GPU usage, memory consumption, temperature, and power draw. This tool is particularly useful for users who need to monitor multiple GPUs simultaneously, such as gamers, developers, and those working in machine learning. 
 ```bash
-# ver o pacote a instalar o amdgpu_top
+sudo apt install nv_top -y
 ``` 
 ---
 
 ## Tweeks Kubuntu - KDE Plasma 
 
 1. 
-
 
 ---
 > [Back to main](../main.md)
