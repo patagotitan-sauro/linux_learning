@@ -121,13 +121,15 @@ flatpak install flathub org.vinegarhq.Sober -y
 ```  
 
 11. Steam
+Instalação do Steam via Flatpak. Launcher for the Steam software distribution service 
 ```bash
-# Installing Steam (Flatpak ou Apt)?
+flatpak install com.valvesoftware.Steam
 ```
 
 12. Bitwarden
+Instalação do Bitwarde via Flatpak. A secure and free password manager for all of your devices.
 ```bash
-# Installing Bitwarde (Flatpak ou Apt)?
+flatpak install com.bitwarden.desktop
 ```
 
 13. WinBoat  
@@ -167,7 +169,7 @@ sudo apt install htop
 Instalar o nv_top via apt.
 NVTOP is a powerful GPU monitoring tool designed for Linux systems, including Ubuntu. It provides real-time statistics on GPU usage, memory consumption, temperature, and power draw. This tool is particularly useful for users who need to monitor multiple GPUs simultaneously, such as gamers, developers, and those working in machine learning. 
 ```bash
-sudo apt install nv_top -y
+sudo apt install nvtop -y
 ``` 
 ---
 
