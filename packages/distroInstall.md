@@ -70,7 +70,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 5. Micro Text Editor
 ```bash
-# Installing Micro (apt)?
+# Installing Micro via apt
+sudo apt install micro
 ```
 
 4. Neofetch
@@ -87,12 +88,14 @@ fastfetch
 ```
 7. GIMP
 ```bash
-# Installing GIMP (apt)?
+# Installing GIMP apt
+sudo apt gimp
 ```
 
 8. Video Studio Code
 ```bash
-# Installing VS Code (flatpak)?
+# Installing VS Code - flatpak
+flatpak install com.visualstudio.code
 ```
 
 9. Virtual Machine - KVM e QEMU  
