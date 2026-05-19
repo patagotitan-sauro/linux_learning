@@ -140,8 +140,10 @@ flatpak install flathub org.vinegarhq.Sober -y
 sudo add-apt-repository ppa:psygreg/linuxtoys
 sudo apt update
 sudo apt install linuxtoys
-```   
-> Fonte: [Linux Toys on Github](https://github.com/psygreg/linuxtoys)  
+``` 
+> Fontes:
+>> [Linux Toys no Github](https://github.com/psygreg/linuxtoys)
+>> [Artigo Diolinux: entenda o que é o linux toys](https://diolinux.com.br/editorial/entenda-o-que-e-o-linux-toys.html)  
 
 14. digiKam 
 Instação do Digikam via Flatpak.
