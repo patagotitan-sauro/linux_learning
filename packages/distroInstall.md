@@ -134,15 +134,17 @@ flatpak install com.bitwarden.desktop
 
 13. WinBoat  
 - Instalar Linux Toys para depois instalar WinBoat
+- Manual Installation
+- If you prefer to review the script before running it, you can download and execute it manually:
+```bash
+# Instação do Linux Toys do psygreg.
+curl -fsSLJO https://linux.toys/install.sh
+chmod +x install.sh
+./install.sh
+``` 
 - LinuxToys is available in several official and community repositories for easier package management.
 - Ubuntu (PPA)
 - You can install LinuxToys from our official PPA on [Launchpad:](https://launchpad.net/~psygreg/+archive/ubuntu/linuxtoys)
-```bash
-# Instação do Linux Toys do psygreg.
-sudo add-apt-repository ppa:psygreg/linuxtoys
-sudo apt update
-sudo apt install linuxtoys
-``` 
 > Fontes:
 >> [Linux Toys no Github](https://github.com/psygreg/linuxtoys) <br>
 >> [Artigo Diolinux: entenda o que é o linux toys](https://diolinux.com.br/editorial/entenda-o-que-e-o-linux-toys.html)  
