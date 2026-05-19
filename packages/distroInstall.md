@@ -142,7 +142,7 @@ sudo apt update
 sudo apt install linuxtoys
 ``` 
 > Fontes:
->> [Linux Toys no Github](https://github.com/psygreg/linuxtoys)
+>> [Linux Toys no Github](https://github.com/psygreg/linuxtoys) <br>
 >> [Artigo Diolinux: entenda o que é o linux toys](https://diolinux.com.br/editorial/entenda-o-que-e-o-linux-toys.html)  
 
 14. digiKam 
@@ -163,7 +163,7 @@ flatpak install com.rtosta.zapzap
 ```bash
 sudo apt install htop
 ``` 
-- nv_top
+- nvtop <br>
 Instalar o nv_top via apt.
 NVTOP is a powerful GPU monitoring tool designed for Linux systems, including Ubuntu. It provides real-time statistics on GPU usage, memory consumption, temperature, and power draw. This tool is particularly useful for users who need to monitor multiple GPUs simultaneously, such as gamers, developers, and those working in machine learning. 
 ```bash
@@ -173,7 +173,7 @@ sudo apt install nv_top -y
 
 ## Tweeks Kubuntu - KDE Plasma 
 
-1. 
+1. System Setings: Wallpaper
 
 ---
 > [Back to main](../main.md)
