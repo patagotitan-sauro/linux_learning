@@ -158,8 +158,12 @@ Instalação do ZapZap um clinte para o Linux do Whatsapp.
 ```bash
 flatpak install com.rtosta.zapzap
 ```
+16. Instalação do Flatseal para Gerenciar as permissões do Flatpak.
+Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
 
-
+```bash
+flatpak install flathub com.github.tchx84.Flatseal
+```
 17. Utilitários interessantes
 - htop
 ```bash
