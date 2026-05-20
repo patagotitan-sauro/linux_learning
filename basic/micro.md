@@ -1,4 +1,4 @@
-# Micro
+# Micro Text Editor
 Breve tutorial para configuração do Micro Text Editor
 ## Settings
 In micro, your settings are stored in `~/.config/micro/settings.json`, a file that is created the first time you run micro.
