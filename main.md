@@ -7,6 +7,7 @@ I. Basic Linux Commands
 - [find](basic/find.md)
 - [git](basic/git.md)
 - [history](basic/history.md)
+- [micro text editor](basic/micro.md)
 - [ps](basic/ps.md)
 - [sed](basic/sed.md)
 - [tar](basic/tar.md)
