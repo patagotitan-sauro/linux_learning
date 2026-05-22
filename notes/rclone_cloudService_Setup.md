@@ -181,4 +181,5 @@ fusermount -u /mnt/onedrive
 | `systemctl status rclone-onedrive` | Check mount service status |
 
 >Fontes:
->>[how to use rclone](https://itsfoss.com/use-onedrive-linux-rclone/)
+>>[rclone on onedrive](https://itsfoss.com/use-onedrive-linux-rclone/)
+>>[rclone on googledrive](https://rclone.org/drive/?ref=itsfoss.com)
