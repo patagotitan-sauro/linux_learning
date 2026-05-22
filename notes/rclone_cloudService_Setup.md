@@ -101,18 +101,22 @@ sudo chown $USER:$USER /mnt/onedrive
 ```bash
 sudo nano /etc/systemd/system/rclone-onedrive.service
 ```
+to find the username use this command:
+```bash
+whoami
+```
 
 Add this content (replace `YOUR_USERNAME` with your actual username):
 ```ini
 [Unit]
-Description=RClone OneDrive Mount
+Description=<RClone OneDrive Mount>
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=simple
-User=YOUR_USERNAME
-ExecStart=/usr/bin/rclone mount OneDrive: /mnt/onedrive --vfs-cache-mode full --log-file=/home/YOUR_USERNAME/rclone-mount.log --log-level INFO
+User=<YOUR_USERNAME>
+ExecStart=/usr/bin/rclone mount <OneDrive:> </mnt/onedrive> --vfs-cache-mode full --log-file=/home/<YOUR_USERNAME>/rclone-mount.log --log-level INFO
 ExecStop=/bin/fusermount -u /mnt/onedrive
 Restart=on-failure
 
