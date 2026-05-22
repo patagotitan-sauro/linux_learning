@@ -50,8 +50,6 @@ sudo ufw enable
 sudo apt install ubuntu-restricted-extras
 ```
 
-
-
 4. **Instalação do Flatpak**  
 No, modern versions of Kubuntu (23.04 and later) do not come with Flatpak pre-installed or enabled by default.
 While previous versions did include it, recent Ubuntu flavors have moved away from default Flatpak support to focus on Snaps.
@@ -177,7 +175,6 @@ NVTOP is a powerful GPU monitoring tool designed for Linux systems, including Ub
 ```bash
 sudo apt install nvtop -y
 ``` 
----
 
 ## Tweeks Kubuntu - KDE Plasma 
 

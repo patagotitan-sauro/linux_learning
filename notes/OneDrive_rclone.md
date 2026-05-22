@@ -45,3 +45,6 @@ sudo systemctl enable rclone-onedrive
 sudo systemctl start rclone-onedrive
 ``
 ---
+
+>Fontes:
+>>[how to use rclone](https://itsfoss.com/use-onedrive-linux-rclone/)

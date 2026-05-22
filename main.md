@@ -16,7 +16,7 @@ II. Packages in Linux:
 ***
 - [Brave Browser](packages/flatpak.md)
 - [Instalação nova - Kubuntu](packages/distroInstall.md)
-- [OneDrive using rclone](notes/OneDrive_rclone.md)
+- [rclone Setup](notes/rclone_cloudService_Setup.md)
 
 ***
 III. General Theory
