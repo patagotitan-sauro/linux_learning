@@ -164,7 +164,9 @@ Flatseal is a graphical utility to review and modify permissions from your Flatp
 ```bash
 flatpak install flathub com.github.tchx84.Flatseal
 ```
-17. Utilitários interessantes
+17. [Instruções para utilizar serviços de nuvem (p. ex.: Onedrive)](/notes/rclone_cloudService_Setup.md)
+
+18. Utilitários interessantes
 - htop
 ```bash
 sudo apt install htop
