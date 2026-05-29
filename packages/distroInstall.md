@@ -14,10 +14,9 @@
 |nro | Partição | tipo | mount | Flags|  
 |:-- |:-------:|:------:|:-------|:------:|  
 |1 |512 MB |FAT32 | /boot/efi | boot, esp  |  
-|2 | 1 GB | ext4 |/boot | -  | 
-|3| 16 GB | linuxswap | - | -|
-|4| resto nvme (min 80 GB) | ext4 | / | - |
-|5|  todo o ssd | ext4 | /home | - |
+|2| 16 GB | linuxswap | - | -|
+|3| resto nvme (min 80 GB) | ext4 | / | - |
+|4|  todo o ssd | ext4 | /home | - |
 ---
 Observações: 
 1. sugestão de partição manual na situação de ter
