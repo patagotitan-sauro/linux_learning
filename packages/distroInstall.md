@@ -13,16 +13,21 @@
 
 |nro | Partição | tipo | mount | Flags|  
 |:-- |:-------:|:------:|:-------|:------:|  
-|1 |512 MB |FAT32 | /boot/efi | boot, esp  |  
-|2| 16 GB | linuxswap | - | -|
-|3| resto nvme (min 80 GB) | ext4 | / | - |
+|1 |512 MB |FAT32 | /boot/efi | boot, esp  |
+|2| 1GB | ext4| /boot| - |
+|3| 16 GB | linuxswap | - | -|
+|4| resto do NVMe (min 80 GB) | ext4 | / | - |
 |4|  todo o ssd | ext4 | /home | - |
 ---
+Durante a instalação pelo Calamares, escolha particionamento manual.
+* /boot/efi — Necessário para sistemas UEFI (praticamente todo hardware moderno). Se o seu computador usar BIOS legado, pule essa partição e crie uma pequena partição de BIOS boot de 1MB no lugar.
+* /boot separado — Opcional, mas recomendado quando o / está em um NVMe, pois alguns bootloaders funcionam de forma mais confiável com ele em uma partição dedicada.
+* Tamanho do swap — Com um NVMe rápido, o desempenho do swap é razoável, mas se quiser usar hibernação (suspend-to-disk), o swap precisa ter tamanho igual ou maior que a sua RAM.
+* /home no SSD — Durante a instalação pelo Calamares, escolha particionamento manual, formate /dev/sda1 como ext4 e defina o ponto de montagem como /home. Em reinstalações futuras, não formate essa partição para preservar seus dados.
+* Sistema de arquivos — ext4 é a opção mais segura e estável. Você pode usar btrfs no / se quiser suporte a snapshots — o Timeshift funciona muito bem com ele no Kubuntu.
+---
 Observações: 
-1. sugestão de partição manual na situação de ter
-dois drives (NVMe e SSD). Utilizar o NVMe para instalar o Sistema Operacional por ser um tipo de armazenamento
-mais rápido.
-2. No caso de apenas um drive de armazenamento (NVMe / SSD) a Partição 4 utiliza todo o espaço restante no / (root);
+1. sugestão de partição manual na situação de ter dois drives (NVMe e SSD). Utilizar o NVMe para instalar o Sistema Operacional por ser um tipo de armazenamento mais rápido.
 2. Faça a instalação completa, mas deixe para fazer o 
 update depois de instalado o sistema.
 
